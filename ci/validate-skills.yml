@@ -1,0 +1,22 @@
+name: validate-skills
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate SKILL.md frontmatter and unique names
+        run: python scripts/validate_skills.py
+      - name: Catalog is up to date
+        run: |
+          python scripts/build_catalog.py
+          git diff --exit-code CATALOG.md || (echo "Run: python scripts/build_catalog.py" && exit 1)
+      - name: Installer smoke test
+        run: |
+          ./install.sh --target "$RUNNER_TEMP/skills"
+          test -f "$RUNNER_TEMP/skills/system-builder/SKILL.md"
