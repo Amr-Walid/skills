@@ -7,9 +7,16 @@
 
 1. Read the project README and existing code conventions first; project rules override these.
 2. Apply the `my-engineering-style` skill (stack defaults, naming, Definition of Done).
-3. For non-trivial work: restate the goal, list assumptions, write a short plan, then execute in small verified steps.
-4. Never claim success without evidence (build/test output, request/response, screenshot).
-5. Reply in the language I use (Arabic or English); code, identifiers, comments and commits in English.
+3. **Always work directly on `main`**: DO NOT create feature branches (e.g. `genspark_ai_developer`, `feature/*`), do not create worktrees, and do not create Pull Requests unless explicitly asked. Commit and push directly to `main`.
+4. For non-trivial work: restate the goal, list assumptions, write a short plan, then execute in small verified steps.
+5. Never claim success without evidence (build/test output, request/response, screenshot).
+6. Reply in the language I use (Arabic or English); code, identifiers, comments and commits in English.
+
+## Git & Workflow (Strict)
+
+- **Direct to `main`**: All work, commits, and pushes MUST go directly to the `main` branch.
+- **No auxiliary branches**: Never create `genspark_ai_developer`, isolated feature branches, or PRs unless the user explicitly asks for a branch or PR.
+- **Conventional Commits**: Use descriptive messages like `feat(scope): ...` or `fix(scope): ...`.
 
 ## Pick the right skill
 

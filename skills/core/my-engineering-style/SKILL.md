@@ -89,9 +89,9 @@ A task is done only when **all** apply:
 
 ## 6. Git conventions
 
-- Branches: `feature/<short-name>`, `fix/<short-name>`, `chore/<short-name>`.
+- **Direct to `main`**: Always work and push directly to `main`. Do NOT create feature branches (e.g. `genspark_ai_developer`, `feature/*`), do NOT create worktrees, and do NOT open PRs unless explicitly requested by the user.
 - **Conventional Commits**: `feat(orders): add bulk cancel endpoint`.
-- One logical change per commit; PRs small and focused, with a clear description and test notes.
+- One logical change per commit with a clear description and test notes.
 - Never commit `bin/`, `obj/`, `node_modules/`, `.env`, `*.db` with real data, or secrets.
 
 ## 7. Final summary format
