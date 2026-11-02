@@ -5,12 +5,19 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from validate_skills import parse, ROOT
 
 REPO = ROOT.parent
-ORDER = ["core", "workflow", "design", "architecture", "security", "dotnet", "database",
+ORDER = ["core", "workflow", "design", "animation", "performance", "mobile", "flutter",
+         "android", "ios", "architecture", "security", "dotnet", "database",
          "devops", "testing", "automation", "meta"]
 TITLES = {
     "core": "Core — my style & system building (start here)",
     "workflow": "Workflow — planning, TDD, debugging, review",
-    "design": "Design — UI/UX, design systems, frontend",
+    "design": "Design — UI/UX, typography (Arabic & Latin), design systems, frontend",
+    "animation": "Animation & Motion — GSAP, CSS/View Transitions, motion systems",
+    "performance": "Performance — Core Web Vitals, web quality, fonts, React",
+    "mobile": "Mobile — stack choice, cross-platform, React Native/Expo, PWA",
+    "flutter": "Flutter & Dart",
+    "android": "Android — Kotlin & Jetpack Compose",
+    "ios": "iOS — Swift & SwiftUI",
     "architecture": "Architecture & Backend",
     "security": "Security",
     "dotnet": ".NET / C#",

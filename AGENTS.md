@@ -23,7 +23,15 @@
 | Task | Skill(s) |
 |------|----------|
 | New system / big feature across layers | `system-builder` → `writing-plans` → `executing-plans` |
-| Any UI / design | `design-direction` + `ui-ux-pro-max` + `frontend-design` |
+| Any UI / design | `design-direction` + `impeccable` + `ui-ux-pro-max` + `frontend-design` |
+| Arabic / bilingual UI, fonts | `arabic-typography`, `latin-typography`, `web-font-performance` |
+| Animations / motion | `motion-system`, `animate`, `gsap-core` / `gsap-scrolltrigger` / `gsap-react`, `review-animations` |
+| Web performance / SEO | `performance-engineering`, `core-web-vitals`, `web-quality-audit`, `vercel-react-best-practices` |
+| Mobile app (choose stack) | `mobile-app-engineering` |
+| Flutter | `flutter-expert` → `flutter-apply-architecture-best-practices`, `riverpod` / `bloc`, `flutter-testing` |
+| Android (Kotlin/Compose) | `compose-expert`, `jetpack-compose-performance`, `compose-adaptive-layouts`, `edge-to-edge` |
+| iOS (Swift/SwiftUI) | `swiftui-expert-skill`, `swiftui-pro`, `swiftui-ui-patterns`, `swift-concurrency-expert` |
+| React Native / Expo | `vercel-react-native-skills`, `animate-expo` |
 | .NET / ASP.NET Core | `dotnet-solution-blueprint`, `dotnet-webapi`, `efcore-patterns`, `modern-csharp-coding-standards` |
 | SQL Server | `sql-server-expert`, `sql-optimization-patterns` |
 | SQLite | `sqlite-expert` |

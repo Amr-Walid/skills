@@ -8,7 +8,9 @@ description: Process for producing distinctive, high-end UI designs instead of g
 Generic output happens when no decisions are made. This skill forces decisions.
 Use `design/ui-ux-pro-max` for data-driven palettes/fonts/styles, `design/frontend-design`
 for bold implementation, `design/design-system` / `design/design-system-patterns` for tokens,
-`design/accessibility-compliance` for WCAG.
+`design/accessibility-compliance` for WCAG, `design/impeccable` for critique/polish/audit commands,
+`design/arabic-typography` + `design/latin-typography` for type, `animation/motion-system` for motion,
+and `performance/performance-engineering` so the design stays fast.
 
 ## Step 1 — Brief (5 lines max)
 

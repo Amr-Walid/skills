@@ -109,7 +109,11 @@ End every task with:
 ## 8. Related skills
 
 - Building a whole system: `core/system-builder`
-- Design work: `design/design-direction`, `design/ui-ux-pro-max`, `design/frontend-design`
+- Design work: `design/design-direction`, `design/impeccable`, `design/ui-ux-pro-max`, `design/frontend-design`
+- Typography: `design/arabic-typography`, `design/latin-typography`, `performance/web-font-performance`
+- Animation: `animation/motion-system` + `animation/gsap-*`, `animation/animate`, `animation/review-animations`
+- Performance: `performance/performance-engineering` → `core-web-vitals`, `web-quality-audit`, `vercel-react-best-practices`
+- Mobile: `mobile/mobile-app-engineering` → `flutter/flutter-expert`, `android/compose-expert`, `ios/swiftui-expert-skill`
 - .NET: `dotnet/dotnet-solution-blueprint` + other `dotnet/*`
 - SQL Server: `database/sql-server-expert` · SQLite: `database/sqlite-expert`
 - Security: `security/secure-by-default` + other `security/*`
